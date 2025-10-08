@@ -22,6 +22,7 @@ The estimated methylation matrices are stored in the `/data` directory as `.rds`
 
 ##  Repository structure
 
+```
 ├── scripts/
 │ ├── functions_sim.R # Utility functions (kernels, integrals, simulators)
 │ ├── sim_H0.R # Type I error simulation (null hypothesis)
@@ -34,3 +35,4 @@ The estimated methylation matrices are stored in the `/data` directory as `.rds`
 │
 ├── results/ # Generated automatically (power, p-values, etc.)
 └── README.md
+```
